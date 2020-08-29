@@ -43,13 +43,13 @@ app.post('/sendmail', (req, res) => {
         port: 587,
         secure: true,
         auth: {
-          user: 'prohackerveer@gmail.com',
-          pass: '(@$proveer3865@$)',
+          user: XXXXXXXXXXXXXX,
+          pass: XXXXXXXXXXXXXX,
         },
       });
 
       var mailOptions = {
-        from: 'prohackerveer@gmail.com',
+        from: XXXXXXXXXXXXXXXX,
         to: email,
         subject: subject,
         // cc: ,
